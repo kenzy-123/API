@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Products Explorer</title>
+</head>
+<body style="background-color: #f4f4f4;font-family: sans-serif; ">
+  <div class="container py-5 text-center">
+    <h1 class="mb-4">Products Explorer</h1>
+     
+    <div class="d-flex justify-content-center mb-4">
+        <input type="text" id="searchInput" class="form-control w-50 me-2 shadow-none border-secondary" placeholder="Search products...">
+        <button class="btn btn-outline-secondary " id="section-search" >Search</button>
+    </div>
+
+    <div id="productsRow" class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+        </div>
+
+    <div class="mt-5">
+        <button class="btn btn-outline-dark px-4 me-2" id="previous" onclick="prev()">Previous</button>
+        <button class="btn btn-outline-dark px-4" id="next" onclick="next()">Next</button>
+    </div>
+</div>
+     <div id="modal-container" class="d-block">
+    </div> 
+
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/Style.js"></script>
+</body>
+
+
+</html>
